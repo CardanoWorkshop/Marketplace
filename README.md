@@ -1,12 +1,4 @@
-![White-label NFT Marketplace](https://user-images.githubusercontent.com/2101767/118617316-cd401700-b7c2-11eb-8baa-d7f83e07274d.jpg)
-
-<p align="center">
-Built on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
-<img src="https://user-images.githubusercontent.com/2101767/118615635-3aeb4380-b7c1-11eb-93d9-a46438542020.png" width="200">
-</p>
-
-
-# OpenAlgoNFT
+# Cardano Workshop NFT Marketplace
 
 OpenAlgoNFT is an open-source cloud-native platform for building an NFT Marketplace on top of Algorand blockchain. 
 
