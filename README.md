@@ -59,20 +59,6 @@ The `backend` folder contains `helm` folder that contains Helm chart. Helm chart
 
 For deploying the frontend we suggest [Vercel.com](https://vercel.com/) which can be connected to a Github repository and takes care of the deployment for you.
 
-# Creating an NFT
-
-1. Go to the admin panel in the backend part of the application
-2. Click on `Users` in the `API` section of the admin panel
-3. Click on `Add user`
-4. Enter your Algorand address and select `Is Staff`
-5. Click on `Save`
-6. Visit the frontend part of the application
-7. Connect with your wallet
-8. Click on the arrow next to your address at the top bar
-9. Select `Create new NFT`
-10. Proceed according to the instructions displayed on the screen
-
-
 # How to setup the development environment
 
 ## Backend
