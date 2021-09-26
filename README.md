@@ -1,10 +1,8 @@
 # Cardano Workshop NFT Marketplace
 
-OpenAlgoNFT is an open-source cloud-native platform for building an NFT Marketplace on top of Algorand blockchain. 
+Cardano Workshop NFT Marketplace is an open-source cloud-native platform for building an NFT Marketplace on top of the Cardano blockchain. 
 
-Learn more on our official [case study](https://staging.ulam.io/case-studies/whitelabel-nft-marketplace-by-ulam-labs/). 
-
-# Getting started with OpenAlgoNFT
+# Getting started with Cardano Workshop NFT Marketplace
 
 There are three components involved in the platform. The frontend, the backend, and the smart contracts. The backend and frontend parts of the application have to be deployed to a server. Smart contracts are automatically deployed by the platform when new NFTs are created.
 
