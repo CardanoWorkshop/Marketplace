@@ -15,6 +15,9 @@ export async function FETCH_USER_DATA({ commit }, { accountAddress }) {
 export async function FETCH_CSRF_TOKEN({ commit }) {
   try {
     const response = await internalService.getCsrfToken();
+
+    console.log(response['token'], 'ccccccccccc');
+    
     await commit('SET_CSRF_TOKEN', response['token']);
   } catch (e) {
     await commit('SET_CSRF_TOKEN', '');

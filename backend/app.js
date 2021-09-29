@@ -1,13 +1,25 @@
 var createError = require('http-errors');
 var express = require('express');
-var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var cors = require('cors');
 
 var indexRouter = require('./routes/index');
 var ApisRouter = require('./routes/api');
 
 var app = express();
+
+const corsOpts = {
+  origin: '*',
+  methods: [
+    'GET',
+    'POST',
+  ],
+  allowedHeaders: [
+    'Content-Type',
+  ]
+};
+app.use(cors(corsOpts));
 
 app.use(logger('dev'));
 app.use(express.json());
